@@ -1,4 +1,3 @@
-
 let currentQuestionIndex = 0; // Keep track of the current question
 let userAnswers = []; // Store the user's answers for each question
 let timerInterval; // Declare timerInterval
