@@ -137,7 +137,7 @@ if (scorePercentage >= 80) {
       'Looks like you might need some more practice. \nTry reviewing the material and retaking the quiz.';
   }
 
-  resultsHTML += <p class="feedback">${feedback}</p>;
+  resultsHTML += `<p class="feedback">${feedback}</p>`;
 
   // Compile results for each question
   questions.forEach((question, index) => {
