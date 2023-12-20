@@ -187,7 +187,7 @@ if (scorePercentage >= 80) {
           label: 'Quiz Results',
           data: [correctAnswersCount, incorrectAnswersCount],
           backgroundColor: [
-            'rgba(0, 128, 0, 0.7)', // Green for correct
+            'rgba(0,255,0,0) ',// Green for correct
             'rgba(255, 0, 0, 0.7)', // Red for incorrect
           ],
         },
@@ -259,7 +259,7 @@ function handleOptionSelect(selectedOption, button) {
 /** 
  * -------
 
-> Ena:
+
 ----------------------------------------------------------------------
  * Add a function to calculate the score
  * -----------------------------------------------------------------------------

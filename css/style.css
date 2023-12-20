@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #eee;
+  background-color: blue;
   height: 100%;
 }
 
@@ -16,6 +16,16 @@ div {
 
 #options button {
   margin-right: 8px;
+  position: relative;
+  display:block;
+  width: 100%;
+  padding: 2px;
+  background-color: #4caf50;
+  color: white;
+  border:none;
+  border-radius:6px;
+  cursor: pointer;
+
 }
 
 #quiz-container {
@@ -49,12 +59,14 @@ div {
 #quiz-timer {
   font-size: 1rem;
   font-weight: bold;
-  background-color: #eee;
+  background-color: #0bdcf7;
   border-radius: 4px;
   padding: 10px;
   width: 60px;
   height: 40px;
   margin: 0.5rem auto;
+  overflow: hidden;
+  word-wrap: normal;
 }
 
 #progress {
@@ -66,6 +78,7 @@ div {
   border-radius: 1.8rem;
   padding: 0.8rem 2rem;
   margin-top: 3rem;
+  
 }
 
 #question {
